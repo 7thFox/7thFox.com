@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #232323
+}
+
+#header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343434;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.segment {
+    margin: 32px 64px 32px 64px;
+    background-color: #343434;
+    padding: 16px;
+    color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.github-profile-img {
+    background-image: url(https://avatars0.githubusercontent.com/u/30659671?s=460&v=4);
+    width: 128px ;
+    height: 128px;
+    background-size: 128px 128px;
+    background-repeat: no-repeat;
+    margin: 16px;
+}
+
+.space-below {
+    margin-bottom: 32px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px dotted #dddddd
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color: #dddddd;
+}
+
+.link {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.github-link {
+    background-image: url("images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png");
+    width: 32px ;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    border: none;
+}
